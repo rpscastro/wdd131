@@ -11,7 +11,7 @@ header {
 
     background: gray;
     text-align: center;
-    color: white;
+    color: black;
     grid-column: 1 / 4;
     font-family: 'Lato', Helvetica, sans-serif;
 
@@ -119,7 +119,7 @@ main {
 }
 
 #brazil-flag {
-    
+
     padding: 40px 0;
     width: 100%;
     height: auto;
@@ -152,10 +152,12 @@ main {
 
 
 footer {
-    background: gray;
+    background: black;
     color: white;
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 4;
     font-family: 'Lato', Helvetica, sans-serif;
 }
+
+
