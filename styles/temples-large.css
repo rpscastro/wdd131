@@ -1,0 +1,73 @@
+@media (min-width: 740px) {
+
+    .navigation li {
+        display: flex;
+    } 
+    .navigation ul li{
+
+       
+        background-color: rgb(10, 54, 110);
+        color: white;
+    }
+
+    header nav {
+
+
+        display: flex;
+        padding: 5px;
+        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+    
+      
+    nav a {
+        display: block;
+        flex: auto;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+    
+    }
+    
+    nav a:hover {
+    
+        background-color: white;
+        color:rgb(10, 54, 110);
+        text-decoration: underline double;
+    
+    }
+
+
+    nav ul {
+
+        display: flex;
+
+    }
+
+    nav ul li {
+
+        flex: 1 1 100%;
+
+    }
+
+    main {
+
+        max-width: 800px;
+        margin: 0 auto;
+
+    }
+
+    main div {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 25px;
+        place-items: center;
+    }
+
+    #ham {
+        display: none;
+    }
+}

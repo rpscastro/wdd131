@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:wght@300&display=swap');
+
+
+header {
+    background-color: rgb(10, 54, 110);
+    color: white;
+    font-family: 'Lato', Helvetica, sans-serif;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px #333;
+    text-align: center;
+}
+
+header,
+main {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+
+}
+
+main h1 {
+
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    
+
+}
+
+
+main div {
+
+    display: grid;
+    grid-template-columns: 1;
+    padding: 2rem;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: small;
+
+}
+
+figure {
+
+    margin: 0 auto;
+
+}
+
+figcaption {
+
+    text-align: center;
+}
+
+
+
+
+
+img {
+
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px #333;
+    
+}
+
+
+footer {
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Lato', Helvetica, sans-serif;
+    background-color: rgb(10, 54, 110);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px #333;
+}
+
+#ham.show::before {
+    content: "X";
+}
+
+#ham::before {
+    content: "≡";
+}
+
+#ham {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: rgb(10, 54, 110);
+    color: white;
+    text-align: left;
+}
+
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+ .navigation li {
+	display: none;
+} 
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+    background-color: rgb(10, 54, 110);
+    color: white;
+}
+
+.navigation a:hover, navigation a:active {
+    background-color: white;
+    color: rgb(10, 54, 110);
+    text-decoration: underline double;
+}
+
+.show li {
+	display: block;
+}
