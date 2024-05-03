@@ -14,6 +14,7 @@ header {
 }
 
 header,
+
 main {
     margin: 0 auto;
 }
@@ -23,12 +24,12 @@ h1 {
 
 }
 
-main h1 {
+main h2 {
 
     font-family: 'Lato', Helvetica, sans-serif;
     color: black;
     text-align: center;
-    
+
 
 }
 
@@ -36,7 +37,6 @@ main h1 {
 main div {
 
     display: grid;
-    grid-template-columns: 1;
     padding: 2rem;
     font-family: 'Lato', Helvetica, sans-serif;
     font-size: small;
@@ -63,7 +63,7 @@ img {
     width: 100%;
     height: auto;
     box-shadow: 0 0 10px #333;
-    
+
 }
 
 
@@ -86,43 +86,45 @@ footer {
 }
 
 #ham {
-	display: block;
-	font-size: 2rem;
-	font-weight:700;
-	text-decoration: none;
-	padding: .5rem .75rem;
-	background-color: rgb(10, 54, 110);
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: rgb(10, 54, 110);
     color: white;
     text-align: left;
 }
 
 .navigation {
-	list-style: none;
-	margin: 0 auto;
-	max-width: 760px;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
 }
 
- .navigation li {
-	display: none;
-} 
+.navigation li {
+    display: none;
+}
+
 .navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
     background-color: rgb(10, 54, 110);
     color: white;
 }
 
-.navigation a:hover, navigation a:active {
+.navigation a:hover,
+navigation a:active {
     background-color: white;
     color: rgb(10, 54, 110);
     text-decoration: underline double;
 }
 
 .show li {
-	display: block;
+    display: block;
 }
