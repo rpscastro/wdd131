@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Rafael Castro" />
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>São Paulo City - SP, Brazil</h1>
+        </header>
+        <div class="container">
+            <div class="hero">
+                <picture>
+                    <source media="(min-width: 700px)" srcset="images/sao-paulo-wide.webp">
+                    <img src="images/sao-paulo-mobile.webp" alt="Building in São Paulo Brazil">
+                </picture>
+            </div>
+            <div class="data">
+                <h2>Data</h2>
+                <div class="label">
+                    <p>Area:</p>
+                    <p>Population:</p>
+                    <p>Location:</p>
+                    <p>Language:</p>
+                    <p>Currency:</p>
+                    <p>Time Zone:</p>
+                    <p>Calling Code:</p>
+                </div>
+                <div class="text">
+                    <p>1,521.202 km²</p>
+                    <p>11,451,999</p>
+                    <p>São Paulo State, Brazil</p>
+                    <p>Brazilian Portuguese</p>
+                    <p>Brazilian Real</p>
+                    <p>UTC-3</p>
+                    </p>
+                    <p>+55 11</p>
+                </div>
+            </div>
+
+            <div class="weather">
+                <h2 id="weather-title">Weather</h2>
+                <picture>
+                    <img src="images/sunny.svg" alt="Weather icon" width="100px">
+                </picture>
+                <div class="label">
+                    <p>Temperature:</p>
+                    <p>Conditions:</p>
+                    <p>Wind:</p>
+                    <p>Wind Chill:</p>
+                </div>
+                <div class="text">
+                    <p id="temperature"></p>
+                    <p>Clear Sky</p>
+                    <p id="wind"></p>
+                    <p id="chill"></p>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <p><span id="currentyear"></span> - Rafael Pereira de Souza Castro - Brazil</p>
+            <p id="lastModified"></p>
+        </footer>
+    </main>
+</body>
+
+</html>

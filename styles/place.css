@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:wght@300&display=swap');
+
+.hero picture img {
+    
+
+        width: 100%;
+        height: auto;
+        box-shadow: 0 0 10px #333;
+    
+      }
+
+header {
+
+    background-color: #DF061D;
+    color:white;
+    text-align: center;
+    font-family:'Lato', Helvetica, sans-serif;
+    box-shadow: 0 0 10px #333;
+   
+
+}
+
+header h1 {
+    margin: 5px;
+    padding: 20px;
+
+}
+
+
+footer {
+    background: #B6B6BD;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight:bold ;
+    box-shadow: 0 0 10px #333;
+}
+
+.data{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+}
+
+.weather{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+}
+
+
+.label p{
+
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: black;
+    font-weight:bold ;
+}
+
+.data .label {
+
+    grid-column: 1 / 2;
+    text-align:right;
+    padding-right: 10px;
+
+
+}
+
+.weather .label {
+
+    grid-column: 1 / 2;
+    text-align:right;
+    padding-right: 10px;
+
+
+}
+
+.weather .text {
+
+    grid-column: 2 / 3;
+    text-align:left;
+    padding-right: 10px;
+
+
+}
+
+.data h2{
+
+    grid-column: 1/4;
+}
+
+
+.weather h2{
+
+    grid-column: 1/4;
+    
+}
+
+.weather picture{
+
+    grid-column: 1/4;
+    text-align:center;
+    width: 100%;
+    height: auto;
+
+    
+}
+
+
+.data {
+
+    background-color:#F4E8D5 ;
+    box-shadow: 0 0 10px #333;
+
+}
+
+
+.weather {
+
+    background-color:#F4E8D5 ;
+    box-shadow: 0 0 10px #333;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.text p{
+
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: black;
+   
+}
+
+
+h2 {
+
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: black;
+    font-weight:bold ;
+    text-align:center;
+
+}
+
+

@@ -1,0 +1,42 @@
+@media screen and (min-width: 700px){
+    
+    
+    .container {
+        position: relative;
+    }
+    
+
+    /* Bottom right text */
+    .weather {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.85;
+  }
+
+
+     /* Top left text */
+    .data {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        opacity: 0.85;
+    }
+
+    #weather-title::after{
+
+        content: " ⛅";
+
+    }
+
+    .weather picture{
+
+        display: none;
+    }
+
+
+}

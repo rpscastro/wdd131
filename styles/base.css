@@ -9,7 +9,7 @@ body {
 
 header {
 
-    background: gray;
+    background: #B6B6BD;
     text-align: center;
     color: black;
     grid-column: 1 / 4;
@@ -39,8 +39,8 @@ nav a {
 
 nav a:hover {
 
-    background-color: #858585;
-    color: #171717;
+    background-color: #B6B6BD;
+    color: black;
 
 }
 
@@ -65,7 +65,7 @@ main {
 
 .card h2 {
     border-radius: 25px;
-    background: gray;
+    background: #B6B6BD;
     color: black;
     text-align: center;
 
@@ -145,8 +145,8 @@ main {
 
 #resources a:hover {
 
-    background-color: #858585;
-    color: #171717;
+    background-color: #B6B6BD;
+    color: black;
 
 }
 
