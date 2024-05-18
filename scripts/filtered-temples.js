@@ -80,6 +80,15 @@ const temples = [
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/campinas-brazil/400x250/campinas-brazil-temple-1030031-wallpaper.jpg"
     },
+
+    {
+        templeName: "Salt Lake Temple",
+        location: "Salt Lake City, Utah, United States",
+        dedicated: "1893, April, 24",
+        area: 382207,
+        imageUrl:
+            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/400x250/salt-lake-temple-37762.jpg"
+    },
 ];
 
 
