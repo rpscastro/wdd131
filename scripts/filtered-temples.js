@@ -57,7 +57,7 @@ const temples = [
     },
     // Add more temple objects here...
     {
-        templeName: "São Paulo Brazil Temple",
+        templeName: "São Paulo Brazil",
         location: "São Paulo, São Paulo, Brazil",
         dedicated: "1978, October, 30",
         area: 59246,
@@ -65,7 +65,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sao-paulo-brazil/400x250/sao-paulo-brazil-temple-lds-187030-wallpaper.jpg"
     },
     {
-        templeName: "Belém Brazil Temple",
+        templeName: "Belém Brazil",
         location: "Belém, Pará, Brazil",
         dedicated: "2022, November, 20",
         area: 28675,
@@ -73,7 +73,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/belem-brazil/400x250/belem_brazil_temple_exterior.jpg"
     },
     {
-        templeName: "Campinas Brazil Temple",
+        templeName: "Campinas Brazil",
         location: "Campinas, São Paulo, Brazil",
         dedicated: "2002, May, 17",
         area: 48100,
@@ -82,7 +82,7 @@ const temples = [
     },
 
     {
-        templeName: "Salt Lake Temple",
+        templeName: "Salt Lake",
         location: "Salt Lake City, Utah, United States",
         dedicated: "1893, April, 24",
         area: 382207,
