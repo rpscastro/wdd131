@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:wght@300&display=swap');
+
+@media only screen and (min-width: 64rem) {
+
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 64rem;
+        margin: auto;
+    }
+
+}
+
+:root {
+    --gray: #B6B6BD;
+    --red: #DF061D;
+}
+
+header {
+
+    background-color: var(--red);
+    color: white;
+    text-align: center;
+    font-family: 'Lato', Helvetica, sans-serif;
+    box-shadow: 0 0 10px #333;
+}
+
+header h1 {
+    margin: 5px;
+    padding: 20px;
+
+}
+
+h3 {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: .9rem;
+    font-family: 'Lato', Helvetica, sans-serif;
+
+}
+
+
+/*----------- FORM STYLING --------------*/
+
+.wf1 {
+    margin: 0 auto;
+    max-width: 500px;
+    font-family: 'Lato', Helvetica, sans-serif;
+
+
+}
+
+
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+
+
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 select {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"] {
+    margin: 10px;
+
+}
+
+.wf1 input[type="submit"] {
+    display: block;
+    border: none;
+    background-image: linear-gradient(#9c2c13, #6f200e);
+    color: #fff;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 1px 1px 4px #999;
+
+    margin: 10px;
+
+}
+
+
+.wf1 textarea {
+
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+    white-space: normal;
+    text-align: justify;
+    -moz-text-align-last: center;
+    /* Firefox 12+ */
+    text-align-last: center;
+}
+
+#italic {
+
+    font-style: italic;
+}
+
+#optional {
+
+    color: blue;
+}
+
+footer {
+    background: var(--gray);
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px #333;
+}
