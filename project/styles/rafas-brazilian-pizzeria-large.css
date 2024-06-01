@@ -1,0 +1,131 @@
+@media (min-width: 740px) {
+
+
+    #logo_link {
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    } 
+
+    .navigation li {
+        display: flex;
+    }
+
+    .navigation ul li {
+
+
+        background-color: rgb(10, 54, 110);
+        color: white;
+    }
+
+    header nav {
+
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        display: grid;
+        padding: 5px;
+        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+
+    nav a {
+        display: block;
+        flex: auto;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+
+    }
+
+    nav a:hover {
+
+        background-color: white;
+        color: rgb(10, 54, 110);
+        text-decoration: underline double;
+
+    }
+
+
+    nav ul {
+         grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        display: flex;
+
+    }
+
+    nav ul li {
+
+        flex: 1 1 100%;
+
+    }
+
+    main {
+
+        max-width: 800px;
+        margin: 0 auto;
+
+
+    }
+
+    main #templeList {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 25px;
+        place-items: center;
+    }
+
+    #ham {
+        display: none;
+    }
+
+
+    .card {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card .menu {
+        grid-row-start: 1;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+
+    .card h2 {
+        text-align: left;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+
+
+    .card .ingredients {
+        text-align: left;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .card .price {
+        text-align: left;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        font-size: large;
+    }
+
+}

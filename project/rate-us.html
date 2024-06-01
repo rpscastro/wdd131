@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Rafa's Brazilian Pizzeria - Rate Us</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals - Rafael Pereira de Souza Castro Keyword summary of page content: web front-end development course of BYU Idaho" />
+    <meta name="author" content="Rafael Castro" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/rafas-brazilian-pizzeria.css">
+    <link rel="stylesheet" href="styles/rafas-brazilian-pizzeria-large.css">
+    <script src="scripts/rate-us.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/mobile-menu.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a id="ham" href="#"></a>
+        <nav>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo2.png" alt="Rafael Castro Logo">
+            </a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="payment.html">Payment Options</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="rate-us.html">Rate Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="page">Rate Our Pizzas</h2>
+        <form method="get" action="thankyou.html" class="wf1">
+            <label>Pizza Name*
+                <select id="select" name="pizza" required>
+                    <option disabled selected value=''>Choose a pizza...</option>
+
+
+                    <!-- <option value="software">Software Development</option> -->
+
+                </select>
+            </label>
+
+            <div>Overall Rating*
+                <label><input id="oneStar" type="radio" name="rating" value="1" required> &star;</label>
+                <label><input id="twoStar" type="radio" name="rating" value="2"> &star; &star;</label>
+                <label><input id="threeStar" type="radio" name="rating" value="3"> &star; &star; &star;</label>
+                <label><input id="fourStar" type="radio" name="rating" value="4"> &star; &star; &star; &star;</label>
+                <label><input id="fiveStar" type="radio" name="rating" value="5"> &star; &star; &star; &star;
+                    &star;</label>
+            </div>
+
+
+            <label>Date of purchase*
+                <input id="installationDate" type="date" name="installationDate" required>
+            </label>
+
+            <label>Written Review <span class="optional">(Optional)</span>
+                <textarea id="review" name="review">
+            </textarea>
+            </label>
+
+            <label>Your Name <span class="optional">(Optional)</span>
+                <input id="name" type="text" name="name" autocomplete="additional-name">
+            </label>
+
+            <input id="postReview" type="submit" value="Post Review">
+
+        </form>
+
+
+    </main>
+
+    <footer>
+        <p><span id="currentyear"></span> - Rafael Pereira de Souza Castro - Brazil</p>
+        <p id="lastModified"></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.webp" alt="fb icon">
+            </a>
+            <a href="https://x.com/" target="_blank">
+                <img src="images/twitter-x-icon.webp" alt="twitter x icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.webp" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
