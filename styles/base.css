@@ -7,16 +7,23 @@ body {
     grid-template: auto 1fr auto / 1fr 1fr 1fr;
 }
 
+
+
 header {
     display: grid;
-    background: #B6B6BD;
-    text-align: center;
-    color: black;
-    grid-column: 1 / 4;
-    font-family: 'Lato', Helvetica, sans-serif;
-
-
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    background: linear-gradient(135deg, #2c3e7a, #1a2a4a);
+    padding: 2rem 1rem;
+    width: 100%;
 }
+
+
+
+
+
+
 
 
 nav {
