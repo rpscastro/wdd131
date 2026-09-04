@@ -8,7 +8,7 @@ body {
 }
 
 header {
-
+    display: grid;
     background: #B6B6BD;
     text-align: center;
     color: black;
