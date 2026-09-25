@@ -116,9 +116,9 @@ function renderTemples(temples) {
       <p><span class="label">DEDICATED:</span> ${temple.dedicated}</p>
       <p><span class="label">SIZE:</span> ${temple.area} sq ft</p>
       <picture>
-        <img src=${temple.imageUrl} alt=${temple.templeName} loading="lazy" width="400" height="250">
+        <img src=${temple.imageUrl} alt=${temple.templeName} loading="lazy" width="400" height="250" crossorigin="anonymous">
       </picture>
-      </div>`
+      </div>`,
     );
     document.querySelector("#templeList").innerHTML = html.join("");
 }
